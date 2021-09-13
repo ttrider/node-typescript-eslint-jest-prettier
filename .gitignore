@@ -3,6 +3,8 @@
 node_modules
 publish
 
+/tests/**/*test.js.map
+
 # Quasar core related directories
 .quasar
 /dist
