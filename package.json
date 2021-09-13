@@ -10,7 +10,7 @@
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "publish": "npm pack --pack-destination ./publish",
     "clean": "rm -rf ./node_modules && rm -rf ./publish && rm -rf ./dist && rm -f package-lock.json",
-    "install": "npm install"
+    "reinstall": "npm run clean && npm install && npm run test"
   },
   "author": "TTRider",
   "license": "MIT",
